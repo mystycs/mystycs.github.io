@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Snowboard CLI Gem Progress"
-date:   2016-08-27 04:54:57 +0000
+date:   2016-08-27 00:54:57 -0400
 ---
 
 
@@ -11,7 +11,7 @@ So for my Ruby project i decided to work on a gem that scrapes www.thegoodride.c
 
 It took about a few days to complete. The biggest hurdle i ran into to was finding out that the pages that displayed the snowboards was actually outputting JSON.
 
-Mens Snowboard Page: http://thegoodride.com/snowboard-reviews/?mens=1 (resulted in [] for all data pulled via nokogiri)
+Mens Snowboard Page: http://thegoodride.com/snowboard-reviews/?mens=1 (resulted in [] null for all data pulled via nokogiri)
 JSON Outputted: http://thegoodride.com/ajax.php?sort=0&mens=1 (This data was rendered by the browser to show to the user rather than statically built into the html page)
 
 I went at the attempt of using nokogiri to pull the data, but that resulted in data coming up empty every time. Luckily with the help of Avi I found out i had to pull the JSON. So i ended up adding JSON + Nokogiri to pull data from the website to display to the user.

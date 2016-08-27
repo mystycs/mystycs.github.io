@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Active Record ORM Magic"
-date:   2016-08-27 05:05:32 +0000
+date:   2016-08-27 01:05:32 -0400
 ---
 
 

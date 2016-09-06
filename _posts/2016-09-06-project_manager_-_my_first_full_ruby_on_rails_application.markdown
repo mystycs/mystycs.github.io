@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Project Manager - My first full Ruby on Rails application"
-date:   2016-09-06 06:56:27 +0000
+date:   2016-09-06 02:56:27 -0400
 ---
 
 

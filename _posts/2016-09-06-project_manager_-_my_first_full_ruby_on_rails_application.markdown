@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Project Manager - My first full Ruby on Rails application"
+title:  "Project Manager - A Ruby on Rails application"
 date:   2016-09-06 02:56:27 -0400
 ---
 

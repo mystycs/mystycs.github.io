@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Project Manager - With a jQuery Front End"
-date:   2016-11-01 22:28:33 +0000
+date:   2016-11-01 18:28:33 -0400
 ---
 
 
@@ -11,4 +11,10 @@ The biggest change to the project manager was creating a JSON backend and using 
 
 ![](http://i.imgur.com/AegBNhT.png)
 
+For the comments section I used JavaScript  model objects with methods on their prototype to get the JSON data into JavaScript  before displaying the item by appending them to the DOM.
 
+
+![](http://i.imgur.com/6001i8N.jpg)
+
+
+Overall it was not difficult to implement a jQuery front end using AJAX to render the data, and definitely has its advantages.

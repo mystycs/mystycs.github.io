@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AngularJS Taco App"
-date:   2017-01-07 07:06:21 +0000
+date:   2017-01-07 02:06:22 -0500
 ---
 
 

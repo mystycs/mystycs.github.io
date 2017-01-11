@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "My time at learn.co"
-date:   2017-01-11 18:41:48 +0000
+title:  "My time at Learn Co"
+date:   2017-01-11 13:41:49 -0500
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How to make your WiFi Magilights even more magical"
-date:   2017-03-23 02:49:29 +0000
+title:  "How to make your WiFi Magic Lights even more magical"
+date:   2017-03-22 22:49:30 -0400
 ---
 
 

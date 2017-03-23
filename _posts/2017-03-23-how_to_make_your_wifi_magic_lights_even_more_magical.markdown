@@ -7,6 +7,8 @@ date:   2017-03-22 22:49:30 -0400
 
 Recently I purchased [MagicLight WiFi Smart LED RGB Light Bulbs](http://a.co/56MsesY) to brighten up my room. After installing them and playing with the android app I noticed there was no Web Gui or portal to control them. So I decided to take action and create one myself [here](https://github.com/mystycs/magiclight-web). I wanted to do this because I was annoyed of always pulling my phone out to change the lights. This way I could run it on a local server and just pull up a local page to control them.
 
+![](http://i.imgur.com/qdrjrI7.jpg)
+
 The first action step was to figure out how to communicate with them. Having prior networking experience I assumed it was going to be over some TCP protocol so I decided to install a packet collector on my phone. Doing so I collected a bunch of data and started to dechiper the data that was collected.
 
 ![](http://i.imgur.com/vuFC3rV.jpg)

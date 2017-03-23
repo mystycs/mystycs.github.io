@@ -9,18 +9,18 @@ Recently I purchased [MagicLight WiFi Smart LED RGB Light Bulbs](http://a.co/56M
 
 ![](http://i.imgur.com/qdrjrI7.jpg)
 
-The first action step was to figure out how to communicate with them. Having prior networking experience I assumed it was going to be over some TCP protocol so I decided to install a packet collector on my phone. Doing so I collected a bunch of data and started to dechiper the data that was collected.
+The first action step was to figure out how to communicate with them. Having prior networking experience I assumed it was going to be over some TCP protocol so I decided to install a packet collector on my phone. Doing so I collected a bunch of data and started to decipher the data that was collected.
 
 ![](http://i.imgur.com/vuFC3rV.jpg)
 
 ![](http://i.imgur.com/mB5C5qo.jpg)
 
-After looking it over i quickly noticed the following below:
+After looking it over I quickly noticed the following below:
 
 The lights communicate by TCP packets over port 5577.
 
-To turn on youll send `71230fa3` 
-To turn off youll send `71240fa4`
+To turn on you’ll send `71230fa3` 
+To turn off you’ll send `71240fa4`
 
 To change a color its `31 + (HEX Color Code) + 00F00F(magic hex) + checksum(sum of all bytes % 256)` ei: `3100FF0000F00F2E`
 
@@ -33,4 +33,4 @@ The app i created below contains much of the same functionality as the MagicHome
 ![](http://i.imgur.com/dp0238i.jpg)
 
 
-Now my life has become much easier as I dont always have to pull out my phone to control my lights.
+Now my life has become much easier as I don’t always have to pull out my phone to control my lights.
